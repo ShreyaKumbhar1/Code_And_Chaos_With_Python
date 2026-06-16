@@ -6,7 +6,6 @@ lives=6
 print(hangman_art.logo)
 
 chosen_word=random.choice(hangman_words.word_list)
-print(chosen_word)
 word_length=len(chosen_word)
 
 blanks=""
